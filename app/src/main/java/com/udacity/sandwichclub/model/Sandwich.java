@@ -10,6 +10,7 @@ public class Sandwich {
     private String description;
     private String image;
     private List<String> ingredients = null;
+    private String image2;
 
     /**
      * No args constructor for use in serialization
@@ -24,6 +25,7 @@ public class Sandwich {
         this.description = description;
         this.image = image;
         this.ingredients = ingredients;
+        this.image2 = image;
     }
 
     public String getMainName() {
